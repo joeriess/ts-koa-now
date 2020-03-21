@@ -1,0 +1,19 @@
+{
+  "name": "@joeriess/ts-koa-now",
+  "version": "1.0.0",
+  "description": "Prototype Koa.js + TypeScript server deployed on ZEIT Now",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeriess/ts-koa-now.git"
+  },
+  "author": "Joe Riess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeriess/ts-koa-now/issues"
+  },
+  "homepage": "https://github.com/joeriess/ts-koa-now#readme"
+}
