@@ -4,7 +4,8 @@
   "description": "Prototype Koa.js + TypeScript server deployed on ZEIT Now",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier src/**/*.ts --write",
+    "dev:watch": "tsnd --respawn src"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "@joeriess/tsconfig": "^1.0.0",
     "@types/koa": "^2.11.2",
     "prettier": "^2.0.0",
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.8.3"
   },
   "prettier": {
