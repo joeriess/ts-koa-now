@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/joeriess/ts-koa-now/issues"
   },
-  "homepage": "https://github.com/joeriess/ts-koa-now#readme"
+  "homepage": "https://github.com/joeriess/ts-koa-now#readme",
+  "dependencies": {
+    "koa": "^2.11.0"
+  },
+  "devDependencies": {
+    "@joeriess/tsconfig": "^1.0.0",
+    "typescript": "^3.8.3"
+  }
 }
