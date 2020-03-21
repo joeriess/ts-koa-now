@@ -1,0 +1,6 @@
+{
+    "extends": "@joeriess/tsconfig",
+    "compilerOptions": {
+        "outDir": "dist"
+    }
+}
